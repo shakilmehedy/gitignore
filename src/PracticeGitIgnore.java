@@ -8,7 +8,7 @@ public class PracticeGitIgnore {
         System.out.println("Please input");
         String message1 = scanner.nextLine();
         String message2=scanner.nextLine();
-        System.out.println(message1+" ".concat(message2));
+        System.out.println(message1.concat(message2));
         scanner.close();
 
     }
